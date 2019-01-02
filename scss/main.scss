@@ -67,3 +67,14 @@ main {
     }
   }
 }
+
+.transition-fade {
+  transition: 0.4s;
+  transform: translateX(-0px);
+  opacity: 1;
+}
+
+html.is-animating .transition-fade {
+  transform: translateX(500px);
+  opacity: 0;
+}

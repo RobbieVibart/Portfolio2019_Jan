@@ -58,7 +58,7 @@ main {
   main .icons {
     margin-top: 1rem; }
     main .icons a {
-      padding: 4rem; }
+      padding: 1.5rem; }
       main .icons a:hover {
         color: #0eecec;
         transition: all 0.5s ease-out; }

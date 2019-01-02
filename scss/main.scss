@@ -53,7 +53,7 @@ main {
   .icons {
     margin-top: 1rem;
     a {
-      padding: 4rem;
+      padding: 1.5rem;
       &:hover {
         color: $secondary-color;
         @include easeOut();

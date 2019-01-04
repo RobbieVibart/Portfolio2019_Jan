@@ -94,6 +94,12 @@
 .nav-item:nth-child(4) {
   transition-delay: 1.2s; }
 
+@media screen and (max-width: 300px) {
+  .lg-heading {
+    margin-top: 10vh;
+    font-size: 10px;
+    font-weight: 800; } }
+
 * {
   box-sizing: border-box; }
 

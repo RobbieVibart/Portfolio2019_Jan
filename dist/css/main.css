@@ -97,6 +97,7 @@
 @media screen and (max-width: 768px) {
   main,
   #home {
+    margin-top: -50px;
     line-height: 4rem;
     text-transform: capitalize;
     transform: translateX(-35px);

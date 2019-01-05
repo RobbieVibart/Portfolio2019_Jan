@@ -96,10 +96,14 @@
 
 @media screen and (max-width: 768px) {
   .main,
-  #home h1,
-  .sm-heading {
+  #home h1 {
     text-align: center;
-    font-size: 1rem; } }
+    font-size: 2rem;
+    font-weight: 400; }
+  .sm-heading,
+  .icons {
+    font-size: 1rem;
+    text-align: center; } }
 
 * {
   box-sizing: border-box; }

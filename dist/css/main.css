@@ -110,7 +110,7 @@ body {
     height: 100vh;
     background: linear-gradient(45deg, #3d034e 30%, #0eecec 120%);
     background-attachment: fixed;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-size: cover; }
     body#bg-img:after {
       content: " ";

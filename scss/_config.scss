@@ -17,7 +17,7 @@ $background-opacity: 0;
       background: linear-gradient(45deg, #3d034e 30%, #0eecec 120%);
       // background: $home-image;
       background-attachment: fixed;
-      background-repeat: repeat;
+      background-repeat: no-repeat;
       background-size: cover;
 
       &:after {

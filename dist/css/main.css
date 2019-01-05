@@ -148,10 +148,10 @@ body {
   font-family: "Montserrat";
   line-height: 1.5; }
   body#bg-img {
-    background: url(/dist/img/Background-Image.png);
-    background-attachment: fixed;
-    background-size: contain;
-    background-size: cover; }
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-attachment: fixed; }
     body#bg-img:after {
       content: " ";
       position: absolute;

@@ -98,18 +98,15 @@
   main,
   #home {
     line-height: 4rem;
-    text-transform: uppercase;
+    text-transform: capitalize;
     transform: translateX(-35px);
+    height: 100vh;
     width: 100vw;
     text-align: center;
     font-size: 1rem; }
   .sm-heading {
     width: 100vw;
     font-size: 1rem;
-    text-align: left; }
-  .lg-heading {
-    width: 100vw;
-    font-size: 0.5rem;
     text-align: left; } }
 
 * {

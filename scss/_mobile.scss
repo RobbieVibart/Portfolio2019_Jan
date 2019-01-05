@@ -56,6 +56,16 @@
       font-weight: 600;
     }
   }
+  .about-info {
+    grid-template-areas:
+      "bio-image"
+      "bio"
+      "job-1"
+      "job-2"
+      "job-3";
+
+    grid-template-columns: 1fr;
+  }
 }
 // Laptops
 @include mediaLg {

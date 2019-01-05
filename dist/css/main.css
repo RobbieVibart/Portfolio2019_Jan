@@ -135,7 +135,7 @@ h3 {
   h2.sm-heading,
   h3.sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 0rem;
     background: rgba(69, 3, 88, 0); }
 
 a {
@@ -176,7 +176,7 @@ html.is-animating .transition-fade {
 
 div.about-info {
   margin: 1rem;
-  padding: 2rem; }
+  padding: 4rem; }
 
 #About {
   height: 25%; }

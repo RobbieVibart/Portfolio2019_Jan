@@ -28,7 +28,7 @@ h3 {
 
   &.sm-heading {
     margin-bottom: 2rem;
-    padding: 0.2rem 1rem;
+    padding: 0.2rem 0rem;
     background: rgba(lighten($primary-color, 2), 0);
   }
 }
@@ -84,7 +84,7 @@ html.is-animating .transition-fade {
 //About Me
 div.about-info {
   margin: 1rem;
-  padding: 2rem;
+  padding: 4rem;
 }
 
 #About {

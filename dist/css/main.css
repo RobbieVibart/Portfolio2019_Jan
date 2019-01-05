@@ -111,7 +111,7 @@ body {
     background: linear-gradient(45deg, #3d034e 30%, #0eecec 120%);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: contain; }
     body#bg-img:after {
       content: " ";
       position: absolute;

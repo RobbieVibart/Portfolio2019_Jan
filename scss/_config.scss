@@ -18,7 +18,7 @@ $background-opacity: 0;
       // background: $home-image;
       background-attachment: fixed;
       background-repeat: no-repeat;
-      background-size: cover;
+      background-size: contain;
 
       &:after {
         content: " ";

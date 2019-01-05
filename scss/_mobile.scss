@@ -38,7 +38,7 @@
   }
 
   .menu-branding {
-    height: 25vh;
+    height: 40vh;
     transform: translate3d(100%, 0, 0);
   }
   .portrait {
@@ -48,7 +48,7 @@
   }
 
   .menu-nav {
-    height: 75vh;
+    height: 60vh;
     transform: translate3d(-100%, 0, 0);
 
     .nav-link {
@@ -56,11 +56,9 @@
     }
   }
 }
-
 // Laptops
 @include mediaLg {
 }
-
-//Widescreens
+// Widescreens
 @include mediaXl {
 }

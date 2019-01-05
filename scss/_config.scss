@@ -2,7 +2,7 @@ $primary-color: #3d034e;
 $secondary-color: #0eecec;
 $show-home-image: true;
 $home-image: url(/dist/img/Background-Image.png);
-$background-opacity: 1;
+$background-opacity: 0;
 
 @mixin easeOut {
   transition: all 0.5s ease-out;
@@ -14,10 +14,11 @@ $background-opacity: 1;
       margin: 0;
       padding: 0;
       height: 100vh;
+      background: linear-gradient(45deg, #3d034e 30%, #0eecec 120%);
       // background: $home-image;
       background-attachment: fixed;
-      // background-size: contain;
-      // background-size: cover;
+      background-repeat: repeat;
+      background-size: cover;
 
       &:after {
         content: " ";

@@ -1,17 +1,21 @@
-//Widescreen
-@include mediaXl {
+//Smartphones
+@include mediaSm {
 }
 
+//Desktop and PC
+@include mediaMd {
+  .main,
+  #home h1,
+  .sm-heading {
+    text-align: center;
+    font-size: 1rem;
+  }
+}
+
+// Laptops
 @include mediaLg {
 }
 
-@include mediaMd {
-}
-
-@include mediaSm {
-  .lg-heading {
-    margin-top: 10vh;
-    font-size: 10px;
-    font-weight: 800;
-  }
+//Widescreens
+@include mediaXl {
 }

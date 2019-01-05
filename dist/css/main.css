@@ -220,3 +220,33 @@ html.is-animating .transition-fade {
 div.about-info {
   margin: 1rem;
   padding: 2rem; }
+
+main,
+#About {
+  padding: 1.5rem;
+  height: 25%; }
+
+.about-info {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: "bio-image bio bio" "job-1 job-2 job-3";
+  grid-template-columns: repeat(3, 1fr); }
+
+.bio-image {
+  grid-area: bio-image;
+  margin: auto;
+  border-radius: 50%;
+  border: #0eecec 2px solid; }
+
+.bio {
+  grid-area: bio;
+  font-size: 1.5rem; }
+
+.job-1 {
+  grid-area: job-1; }
+
+.job-2 {
+  grid-area: job-2; }
+
+.job-3 {
+  grid-area: job-3; }

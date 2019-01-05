@@ -131,8 +131,9 @@
     height: 150px; }
   .menu-nav {
     height: 75vh;
-    transform: translate3d(-100%, 0, 0);
-    font-size: 0.5rem; } }
+    transform: translate3d(-100%, 0, 0); }
+    .menu-nav .nav-link {
+      font-size: 1rem; } }
 
 * {
   box-sizing: border-box; }

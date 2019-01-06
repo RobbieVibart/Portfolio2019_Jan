@@ -84,7 +84,7 @@ html.is-animating .transition-fade {
 //About Me
 div.about-info {
   margin: 1rem;
-  padding: 4rem;
+  padding: 3rem;
 }
 
 #About {
@@ -102,6 +102,8 @@ div.about-info {
 }
 
 .bio-image {
+  width: 250px;
+  height: 250px;
   grid-area: bio-image;
   margin: auto;
   border-radius: 50%;
@@ -109,7 +111,8 @@ div.about-info {
 }
 .bio {
   grid-area: bio;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  line-height: 50px;
 }
 .job-1 {
   grid-area: job-1;
@@ -123,7 +126,7 @@ div.about-info {
 
 .job {
   background: rgba(lighten($primary-color, 2), 0.1);
-  padding: 0.5rem;
+  padding: 2rem;
   border-bottom: $secondary-color 1px solid;
 }
 
@@ -132,6 +135,13 @@ div.about-info {
   padding: 1rem;
   background: rgba(darken($primary-color, 1), 10);
   height: 60px;
+}
+
+h6 {
+  color: $secondary-color;
+  font-size: 1rem;
+  font-weight: 400;
+  border-bottom: $secondary-color 1px solid;
 }
 
 @import "mobile";

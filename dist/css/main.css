@@ -177,7 +177,7 @@ html.is-animating .transition-fade {
 
 div.about-info {
   margin: 1rem;
-  padding: 4rem; }
+  padding: 3rem; }
 
 #About {
   height: 25%; }
@@ -189,6 +189,8 @@ div.about-info {
   grid-template-columns: repeat(3, 1fr); }
 
 .bio-image {
+  width: 250px;
+  height: 250px;
   grid-area: bio-image;
   margin: auto;
   border-radius: 50%;
@@ -196,7 +198,8 @@ div.about-info {
 
 .bio {
   grid-area: bio;
-  font-size: 1.5rem; }
+  font-size: 2rem;
+  line-height: 50px; }
 
 .job-1 {
   grid-area: job-1; }
@@ -209,7 +212,7 @@ div.about-info {
 
 .job {
   background: rgba(69, 3, 88, 0.1);
-  padding: 0.5rem;
+  padding: 2rem;
   border-bottom: #0eecec 1px solid; }
 
 #main-footer {
@@ -217,6 +220,12 @@ div.about-info {
   padding: 1rem;
   background: #390349;
   height: 60px; }
+
+h6 {
+  color: #0eecec;
+  font-size: 1rem;
+  font-weight: 400;
+  border-bottom: #0eecec 1px solid; }
 
 @media screen and (max-width: 300px) {
   margin: 10vh; }
@@ -258,11 +267,12 @@ div.about-info {
     transform: translate3d(-100%, 0, 0); }
     .menu-nav .nav-link {
       font-size: 1rem;
-      font-family: "Montserrat";
-      font-weight: 600; }
+      font-family: "Montserrat"; }
   .about-info {
     grid-template-areas: "bio-image" "bio" "job-1" "job-2" "job-3";
     grid-template-columns: 1fr; }
   .bio-image {
-    width: 150px;
-    height: 150px; } }
+    width: 250px;
+    height: 250px; }
+  h3 {
+    font-size: 1.5rem; } }

@@ -107,7 +107,8 @@ body {
   body#bg-img {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     background: linear-gradient(45deg, #3d034e 30%, #0eecec 120%);
     background-attachment: fixed;
     background-repeat: no-repeat;

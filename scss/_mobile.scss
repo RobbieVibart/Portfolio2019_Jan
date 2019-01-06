@@ -66,6 +66,10 @@
 
     grid-template-columns: 1fr;
   }
+  .bio-image {
+    width: 150px;
+    height: 150px;
+  }
 }
 // Laptops
 @include mediaLg {

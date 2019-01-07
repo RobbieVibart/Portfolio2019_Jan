@@ -301,9 +301,6 @@ p {
   color: #3d034e;
   font-weight: bolder; }
 
-@media screen and (max-width: 300px) {
-  margin: 10vh; }
-
 @media screen and (max-width: 768px) {
   main,
   #home {
@@ -315,6 +312,32 @@ p {
     width: 100%;
     text-align: center;
     font-size: 1rem; }
+    main#bg-img,
+    #home#bg-img {
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      height: 100vh;
+      width: 100%;
+      background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: contain; }
+      main#bg-img:after,
+      #home#bg-img:after {
+        content: " ";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        z-index: -1;
+        background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: contain; }
   .sm-heading {
     text-transform: initial;
     width: 100vw;

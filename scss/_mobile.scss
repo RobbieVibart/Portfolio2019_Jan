@@ -14,7 +14,10 @@
     width: 100%;
     text-align: center;
     font-size: 1rem;
-    @include background;
+    background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .sm-heading {

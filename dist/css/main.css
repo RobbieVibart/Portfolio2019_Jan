@@ -311,33 +311,11 @@ p {
     height: 100vh;
     width: 100%;
     text-align: center;
-    font-size: 1rem; }
-    main#bg-img,
-    #home#bg-img {
-      margin: 0;
-      padding: 0;
-      position: absolute;
-      top: 0%;
-      left: 0%;
-      height: 100vh;
-      width: 100vw;
-      background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      background-size: cover; }
-      main#bg-img:after,
-      #home#bg-img:after {
-        content: " ";
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 100vw;
-        height: 100vh;
-        z-index: -1;
-        background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: cover; }
+    font-size: 1rem;
+    background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; }
   .sm-heading {
     text-transform: initial;
     width: 100vw;

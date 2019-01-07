@@ -49,8 +49,8 @@ header {
 
 main {
   padding: 4rem;
-  height: 100%;
-  // min-height: calc(100vh - 60px);
+  // height: 100%;
+  min-height: calc(100vh -60px);
 
   .icons {
     margin-top: 1rem;
@@ -152,10 +152,11 @@ h6 {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
-    "work-1 work-2 work-3"
+    "work-1 work-1 work-1"
     "work-4 work-5 work-6";
 
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 2fr);
 }
 
 .work-1 {

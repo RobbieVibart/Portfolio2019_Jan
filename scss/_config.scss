@@ -16,12 +16,9 @@ $background-opacity: 0;
       position: absolute;
       top: 0%;
       left: 0%;
-      height: 100vh;
+      height: 100%;
       width: 100%;
-      // background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
-      // animation: animate 20s linear infinite;
-
-      // background: $home-image;
+      background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
       background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: contain;
@@ -40,28 +37,30 @@ $background-opacity: 0;
   }
 }
 
-main {
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  height: 100vh;
-  background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
-  animation: animate 20s linear infinite;
-}
+// background animation
 
-@keyframes animate {
-  0% {
-    filter: hue-rotate(0deg);
-  }
+// main {
+//   position: absolute;
+//   top: 0%;
+//   left: 0%;
+//   width: 100%;
+//   height: 100vh;
+//   background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
+//   animation: animate 20s linear infinite;
+// }
 
-  50% {
-    filter: hue-rotate(360deg);
-  }
-  100% {
-    filter: hue-rotate(0deg);
-  }
-}
+// @keyframes animate {
+//   0% {
+//     filter: hue-rotate(0deg);
+//   }
+
+//   50% {
+//     filter: hue-rotate(360deg);
+//   }
+//   100% {
+//     filter: hue-rotate(0deg);
+//   }
+// }
 
 // Media query Mixin
 @mixin mediaSm {

@@ -1,5 +1,6 @@
 //Smartphones
 @include mediaSm {
+  margin: 10vh;
 }
 
 //Desktop and PC
@@ -11,13 +12,9 @@
     text-transform: capitalize;
     transform: translateX(-35px);
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     font-size: 1rem;
-    background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
   .sm-heading {

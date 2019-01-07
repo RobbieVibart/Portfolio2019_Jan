@@ -50,7 +50,7 @@ header {
 main {
   padding: 4rem;
   height: 100%;
-  min-height: calc(100vh -60px);
+  // min-height: calc(100vh - 60px);
 
   .icons {
     margin-top: 1rem;
@@ -142,85 +142,6 @@ h6 {
   font-size: 1rem;
   font-weight: 400;
   border-bottom: $secondary-color 1px solid;
-}
-//My Work
-
-.gallery {
-  justify-content: center;
-  margin: 1rem;
-  padding: 4rem;
-  display: grid;
-  grid-gap: 30px;
-  grid-template-areas:
-    "work-1 work-1 work-1"
-    "work-4 work-5 work-6";
-
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 2fr);
-}
-
-.work-1 {
-  height: 250px;
-  text-align: center;
-  border-top: 1px $secondary-color solid;
-  background: rgba(darken($primary-color, 1), 0.2);
-  background-image: url("/dist/img/GrowConsult-Board-game.png");
-  background-size: cover;
-}
-
-.work-2 {
-  height: 250px;
-  text-align: center;
-  border-top: 1px $secondary-color solid;
-  background: rgba(darken($primary-color, 1), 0.2);
-  background-image: url("/dist/img/lending-Lola_Infograghic_207x98_220217VerFA\(D\).png");
-  background-size: cover;
-  background-position: center;
-}
-
-.work-3 {
-  height: 250px;
-  text-align: center;
-  border-top: 1px $secondary-color solid;
-  background: rgba(darken($primary-color, 1), 0.2);
-  background-image: url("/dist/img/");
-  background-size: cover;
-  background-image: url("/dist/img/ReflectPack_Ver1.png");
-  background-size: cover;
-  background-position: center;
-}
-
-.work-4 {
-  height: 250px;
-  text-align: center;
-  border-top: 1px $secondary-color solid;
-  background: rgba(darken($primary-color, 1), 0.2);
-  background-image: url("/dist/img/");
-  background-size: cover;
-  background-position: center;
-}
-
-.work-5 {
-  height: 250px;
-  text-align: center;
-  border-top: 1px $secondary-color solid;
-  background: rgba(darken($primary-color, 1), 0.2);
-  background-image: url("/dist/img/Snyerchi_Design\ BoxVerFA.png");
-  background-size: cover;
-  background-position: center;
-}
-
-.work-6 {
-  text-align: center;
-  height: 250px;
-  border-top: 1px $secondary-color solid;
-  background: rgba(darken($primary-color, 1), 0.2);
-}
-
-p {
-  text-transform: uppercase;
-  color: $primary-color;
-  font-weight: bolder;
 }
 
 @import "mobile";

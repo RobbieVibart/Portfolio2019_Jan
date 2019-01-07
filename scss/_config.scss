@@ -21,7 +21,7 @@ $background-opacity: 0;
       background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
       background-attachment: fixed;
       background-repeat: no-repeat;
-      background-size: contain;
+      background-size: cover;
 
       &:after {
         content: " ";
@@ -34,7 +34,7 @@ $background-opacity: 0;
         background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
       }
     }
   }

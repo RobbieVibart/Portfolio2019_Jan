@@ -115,7 +115,7 @@ body {
     background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: contain; }
+    background-size: cover; }
     body#bg-img:after {
       content: " ";
       position: absolute;
@@ -127,7 +127,7 @@ body {
       background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
       background-attachment: fixed;
       background-repeat: no-repeat;
-      background-size: contain; }
+      background-size: cover; }
 
 h1,
 h2,
@@ -324,7 +324,7 @@ p {
       background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
       background-attachment: fixed;
       background-repeat: no-repeat;
-      background-size: contain; }
+      background-size: cover; }
       main#bg-img:after,
       #home#bg-img:after {
         content: " ";
@@ -337,7 +337,7 @@ p {
         background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
         background-attachment: fixed;
         background-repeat: no-repeat;
-        background-size: contain; }
+        background-size: cover; }
   .sm-heading {
     text-transform: initial;
     width: 100vw;

@@ -1,3 +1,20 @@
+main {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
+  animation: animate 20s linear infinite; }
+
+@keyframes animate {
+  0% {
+    filter: hue-rotate(0deg); }
+  50% {
+    filter: hue-rotate(360deg); }
+  100% {
+    filter: hue-rotate(0deg); } }
+
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -107,9 +124,11 @@ body {
   body#bg-img {
     margin: 0;
     padding: 0;
-    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100vh;
     width: 100%;
-    background: linear-gradient(45deg, #3d034e 30%, #0eecec 120%);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -226,6 +245,72 @@ h6 {
   font-size: 1rem;
   font-weight: 400;
   border-bottom: #0eecec 1px solid; }
+
+.gallery {
+  justify-content: center;
+  margin: 1rem;
+  padding: 4rem;
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: "work-1 work-2 work-3" "work-4 work-5 work-6";
+  grid-template-columns: repeat(3, 1fr); }
+
+.work-1 {
+  height: 250px;
+  text-align: center;
+  border-top: 1px #0eecec solid;
+  background: rgba(57, 3, 73, 0.2);
+  background-image: url("/dist/img/GrowConsult-Board-game.png");
+  background-size: cover; }
+
+.work-2 {
+  height: 250px;
+  text-align: center;
+  border-top: 1px #0eecec solid;
+  background: rgba(57, 3, 73, 0.2);
+  background-image: url("/dist/img/lending-Lola_Infograghic_207x98_220217VerFA(D).png");
+  background-size: cover;
+  background-position: center; }
+
+.work-3 {
+  height: 250px;
+  text-align: center;
+  border-top: 1px #0eecec solid;
+  background: rgba(57, 3, 73, 0.2);
+  background-image: url("/dist/img/");
+  background-size: cover;
+  background-image: url("/dist/img/ReflectPack_Ver1.png");
+  background-size: cover;
+  background-position: center; }
+
+.work-4 {
+  height: 250px;
+  text-align: center;
+  border-top: 1px #0eecec solid;
+  background: rgba(57, 3, 73, 0.2);
+  background-image: url("/dist/img/");
+  background-size: cover;
+  background-position: center; }
+
+.work-5 {
+  height: 250px;
+  text-align: center;
+  border-top: 1px #0eecec solid;
+  background: rgba(57, 3, 73, 0.2);
+  background-image: url("/dist/img/Snyerchi_Design BoxVerFA.png");
+  background-size: cover;
+  background-position: center; }
+
+.work-6 {
+  text-align: center;
+  height: 250px;
+  border-top: 1px #0eecec solid;
+  background: rgba(57, 3, 73, 0.2); }
+
+p {
+  text-transform: uppercase;
+  color: #3d034e;
+  font-weight: bolder; }
 
 @media screen and (max-width: 300px) {
   margin: 10vh; }

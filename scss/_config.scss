@@ -13,9 +13,14 @@ $background-opacity: 0;
     &#bg-img {
       margin: 0;
       padding: 0;
-      height: 100%;
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      height: 100vh;
       width: 100%;
-      background: linear-gradient(45deg, #3d034e 30%, #0eecec 120%);
+      // background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
+      // animation: animate 20s linear infinite;
+
       // background: $home-image;
       background-attachment: fixed;
       background-repeat: no-repeat;
@@ -34,6 +39,30 @@ $background-opacity: 0;
     }
   }
 }
+
+main {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, #3d034e 10%, #0eecec 120%);
+  animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    filter: hue-rotate(360deg);
+  }
+  100% {
+    filter: hue-rotate(0deg);
+  }
+}
+
 // Media query Mixin
 @mixin mediaSm {
   @media screen and (max-width: 300px) {

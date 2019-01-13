@@ -49,7 +49,7 @@ header {
 
 main {
   padding: 4rem;
-  height: 100%;
+  // height: 100vh;
   // min-height: calc(100vh - 60px);
 
   .icons {
@@ -145,3 +145,79 @@ h6 {
 }
 
 @import "mobile";
+
+//Gallery
+
+// Project ODA
+#Project-1 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.grid-container {
+  width: 100%;
+  padding: 0rem 4rem;
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 200px 200px 200px;
+  grid-template-areas:
+    "sub-header-1 sub-header-2 sub-header-3"
+    "sub-header-4 sub-header-4 sub-header-4"
+    "sub-header-5 sub-content sub-content"
+    "diagram diagram diagram";
+
+  .sub-header-1 {
+    grid-area: sub-header-1;
+    background: rgba(lighten($primary-color, 2), 0.25);
+    padding: 1.5rem;
+    font-size: 2rem;
+  }
+
+  .sub-header-2 {
+    grid-area: sub-header-2;
+    background: rgba(lighten($primary-color, 2), 0.5);
+    padding: 1.5rem;
+    font-size: 2rem;
+  }
+  .sub-header-3 {
+    grid-area: sub-header-3;
+    background: rgba(lighten($primary-color, 2), 0.75);
+    padding: 1.5rem;
+    font-size: 2rem;
+  }
+
+  .sub-header-4 {
+    grid-area: sub-header-4;
+    margin: 0;
+    padding: 0;
+    background: rgba(lighten($primary-color, 2), 1);
+    background: url(/dist/img/925.png);
+    background-position-x: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .sub-header-5 {
+    grid-area: sub-header-5;
+    margin: 0;
+    padding: 0;
+    background: rgba(lighten($primary-color, 2), 1);
+    background: url(/dist/img/Logo-Ver1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .sub-content {
+    grid-area: sub-content;
+    padding: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .diagram {
+    grid-area: diagram;
+    padding: 1.5rem;
+    font-size: 1rem;
+    background-color: $primary-color;
+  }
+}

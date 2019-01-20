@@ -237,38 +237,43 @@ h6 {
   padding-bottom: 0; }
 
 .grid-container {
-  width: 100%;
-  padding: 4rem 4rem;
   display: grid;
   justify-content: center;
   align-content: center;
-  grid-template-columns: 497px 497px;
+  padding: 4rem 4rem;
+  grid-template-columns: auto;
   grid-template-rows: repeat(7, 328px);
-  grid-template-areas: "1 1" "2 2" "3 3" "4 4" "5 5" "6 6" "7 7"; }
+  grid-template-areas: "img-1 img-1" "2 2" "3 3" "4 4" "5 5" "6 6" "7 7"; }
   .grid-container .image1 {
-    width: 995px;
-    grid-area: 1;
-    background-image: url(/dist/img/Project-Page_ODA_02.png);
+    grid-area: img-1;
     background-repeat: no-repeat;
     background-size: cover; }
     .grid-container .image1 h1 {
-      padding: 4rem;
+      padding: 4rem 5rem;
       text-transform: uppercase;
       color: #0eecec; }
-    .grid-container .image1 p {
-      width: 50%;
-      padding: 4rem;
-      font-size: 0.8rem; }
+    .grid-container .image1 .cont-1 {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-gap: 1rem;
+      padding: 4rem 4rem;
+      background: linear-gradient(45deg, #ccc 5%, #000 100%); }
+      .grid-container .image1 .cont-1 p {
+        font-size: 1rem;
+        color: #0eecec; }
   .grid-container .image2 {
-    width: 995px;
+    width: 100%;
     grid-area: 2;
-    background-image: url(/dist/img/Project-Page_ODA_04.png);
     background-repeat: no-repeat;
-    background-size: cover; }
-    .grid-container .image2 p {
-      float: left;
-      padding: 1.5rem;
-      font-size: 1.5rem; }
+    background-size: contain; }
+    .grid-container .image2 .cont-2 {
+      width: 100%;
+      display: grid;
+      padding: 4rem;
+      grid-template-columns: 25% 25% 50%;
+      font-size: 2rem;
+      color: #0eecec; }
   .grid-container .image3 {
     width: 995px;
     grid-area: 3;

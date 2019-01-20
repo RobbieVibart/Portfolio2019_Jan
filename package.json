@@ -1,0 +1,22 @@
+{
+  "name": "portfolio2019",
+  "version": "1.0.0",
+  "description": "Portfolio 2019",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobbieVibart/Portfolio2019.git"
+  },
+  "author": "Robert Vibart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobbieVibart/Portfolio2019/issues"
+  },
+  "homepage": "https://github.com/RobbieVibart/Portfolio2019#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

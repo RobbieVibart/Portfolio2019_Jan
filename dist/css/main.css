@@ -182,7 +182,7 @@ html.is-animating .transition-fade {
 
 div.about-info {
   margin: 1rem;
-  padding: 3rem; }
+  padding: 0rem; }
 
 #About {
   height: 25%; }
@@ -223,7 +223,7 @@ div.about-info {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #390349;
+  background: #0ef1f1;
   height: 60px; }
 
 h6 {
@@ -231,6 +231,79 @@ h6 {
   font-size: 1rem;
   font-weight: 400;
   border-bottom: #0eecec 1px solid; }
+
+#Project-1 {
+  margin-bottom: 0;
+  padding-bottom: 0; }
+
+.grid-container {
+  width: 100%;
+  padding: 4rem 4rem;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 497px 497px;
+  grid-template-rows: repeat(7, 328px);
+  grid-template-areas: "1 1" "2 2" "3 3" "4 4" "5 5" "6 6" "7 7"; }
+  .grid-container .image1 {
+    width: 995px;
+    grid-area: 1;
+    background-image: url(/dist/img/Project-Page_ODA_02.png);
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .grid-container .image1 h1 {
+      padding: 4rem;
+      text-transform: uppercase;
+      color: #0eecec; }
+    .grid-container .image1 p {
+      width: 50%;
+      padding: 4rem;
+      font-size: 0.8rem; }
+  .grid-container .image2 {
+    width: 995px;
+    grid-area: 2;
+    background-image: url(/dist/img/Project-Page_ODA_04.png);
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .grid-container .image2 p {
+      float: left;
+      padding: 1.5rem;
+      font-size: 1.5rem; }
+  .grid-container .image3 {
+    width: 995px;
+    grid-area: 3;
+    background-image: url(/dist/img/Project-Page_ODA_06.png); }
+    .grid-container .image3 p {
+      padding: 1.5rem;
+      font-size: 0.8rem; }
+  .grid-container .image4 {
+    width: 995px;
+    grid-area: 4;
+    background-image: url(/dist/img/Project-Page_ODA_07.png); }
+    .grid-container .image4 p {
+      padding: 1.5rem;
+      font-size: 0.8rem; }
+  .grid-container .image5 {
+    width: 995px;
+    grid-area: 5;
+    background-image: url(/dist/img/Project-Page_ODA_08.png); }
+    .grid-container .image5 p {
+      padding: 1.5rem;
+      font-size: 0.8rem; }
+  .grid-container .image6 {
+    width: 995px;
+    grid-area: 6;
+    background-image: url(/dist/img/Project-Page_ODA_09.png); }
+    .grid-container .image6 p {
+      padding: 1.5rem;
+      font-size: 0.8rem; }
+  .grid-container .image7 {
+    width: 995px;
+    grid-area: 7;
+    background-image: url(/dist/img/Project-Page_ODA_11.png); }
+    .grid-container .image7 p {
+      padding: 1.5rem;
+      font-size: 0.8rem; }
 
 @media screen and (max-width: 300px) {
   margin: 10vh; }
@@ -281,56 +354,3 @@ h6 {
     height: 250px; }
   h3 {
     font-size: 1.5rem; } }
-
-#Project-1 {
-  margin-bottom: 0;
-  padding-bottom: 0; }
-
-.grid-container {
-  width: 100%;
-  padding: 0rem 4rem;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr 200px 200px 200px;
-  grid-template-areas: "sub-header-1 sub-header-2 sub-header-3" "sub-header-4 sub-header-4 sub-header-4" "sub-header-5 sub-content sub-content" "diagram diagram diagram"; }
-  .grid-container .sub-header-1 {
-    grid-area: sub-header-1;
-    background: rgba(69, 3, 88, 0.25);
-    padding: 1.5rem;
-    font-size: 2rem; }
-  .grid-container .sub-header-2 {
-    grid-area: sub-header-2;
-    background: rgba(69, 3, 88, 0.5);
-    padding: 1.5rem;
-    font-size: 2rem; }
-  .grid-container .sub-header-3 {
-    grid-area: sub-header-3;
-    background: rgba(69, 3, 88, 0.75);
-    padding: 1.5rem;
-    font-size: 2rem; }
-  .grid-container .sub-header-4 {
-    grid-area: sub-header-4;
-    margin: 0;
-    padding: 0;
-    background: #450358;
-    background: url(/dist/img/925.png);
-    background-position-x: 0px;
-    background-repeat: no-repeat;
-    background-size: contain; }
-  .grid-container .sub-header-5 {
-    grid-area: sub-header-5;
-    margin: 0;
-    padding: 0;
-    background: #450358;
-    background: url(/dist/img/Logo-Ver1.png);
-    background-repeat: no-repeat;
-    background-size: contain; }
-  .grid-container .sub-content {
-    grid-area: sub-content;
-    padding: 1.5rem;
-    font-size: 1rem; }
-  .grid-container .diagram {
-    grid-area: diagram;
-    padding: 1.5rem;
-    font-size: 1rem;
-    background-color: #0eecec; }

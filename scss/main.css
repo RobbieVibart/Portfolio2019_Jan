@@ -282,7 +282,7 @@ html.is-animating .transition-fade {
 
 div.about-info {
   margin: 1rem;
-  padding: 3rem;
+  padding: 0rem;
 }
 
 #About {
@@ -345,7 +345,7 @@ div.about-info {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #390349;
+  background: #0ef1f1;
   height: 60px;
 }
 
@@ -354,6 +354,53 @@ h6 {
   font-size: 1rem;
   font-weight: 400;
   border-bottom: #0eecec 1px solid;
+}
+
+#Project-1 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.gallery-grid {
+  width: 100%;
+  padding: 0rem 4rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: 1fr 200px 200px 200px;
+      grid-template-rows: 1fr 200px 200px 200px;
+      grid-template-areas: "";
+}
+
+.gallery-grid .image1 {
+  -ms-grid-row: 1;
+  grid-area: 1;
+}
+
+.gallery-grid .image2 {
+  -ms-grid-row: 2;
+  grid-area: 2;
+}
+
+.gallery-grid .image3 {
+  -ms-grid-row: 3;
+  grid-area: 3;
+}
+
+.gallery-grid .image4 {
+  -ms-grid-row: 4;
+  grid-area: 4;
+}
+
+.gallery-grid .image5 {
+  -ms-grid-row: 5;
+  grid-area: 5;
+}
+
+.gallery-grid .image6 {
+  -ms-grid-row: 6;
+  grid-area: 6;
 }
 
 @media screen and (max-width: 300px) {
@@ -423,94 +470,5 @@ h6 {
   h3 {
     font-size: 1.5rem;
   }
-}
-
-#Project-1 {
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.grid-container {
-  width: 100%;
-  padding: 0rem 4rem;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  -ms-grid-rows: 1fr 200px 200px 200px;
-      grid-template-rows: 1fr 200px 200px 200px;
-      grid-template-areas: "sub-header-1 sub-header-2 sub-header-3" "sub-header-4 sub-header-4 sub-header-4" "sub-header-5 sub-content sub-content" "diagram diagram diagram";
-}
-
-.grid-container .sub-header-1 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 1;
-  grid-area: sub-header-1;
-  background: rgba(69, 3, 88, 0.25);
-  padding: 1.5rem;
-  font-size: 2rem;
-}
-
-.grid-container .sub-header-2 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
-  grid-area: sub-header-2;
-  background: rgba(69, 3, 88, 0.5);
-  padding: 1.5rem;
-  font-size: 2rem;
-}
-
-.grid-container .sub-header-3 {
-  -ms-grid-row: 1;
-  -ms-grid-column: 3;
-  grid-area: sub-header-3;
-  background: rgba(69, 3, 88, 0.75);
-  padding: 1.5rem;
-  font-size: 2rem;
-}
-
-.grid-container .sub-header-4 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: sub-header-4;
-  margin: 0;
-  padding: 0;
-  background: #450358;
-  background: url(/dist/img/925.png);
-  background-position-x: 0px;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.grid-container .sub-header-5 {
-  -ms-grid-row: 3;
-  -ms-grid-column: 1;
-  grid-area: sub-header-5;
-  margin: 0;
-  padding: 0;
-  background: #450358;
-  background: url(/dist/img/Logo-Ver1.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.grid-container .sub-content {
-  -ms-grid-row: 3;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 2;
-  grid-area: sub-content;
-  padding: 1.5rem;
-  font-size: 1rem;
-}
-
-.grid-container .diagram {
-  -ms-grid-row: 4;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: diagram;
-  padding: 1.5rem;
-  font-size: 1rem;
-  background-color: #3d034e;
 }
 /*# sourceMappingURL=main.css.map */

@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/RobbieVibart/Portfolio2019#readme",
   "dependencies": {
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.13.1"
   }
 }
